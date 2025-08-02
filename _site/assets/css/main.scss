@@ -1,0 +1,13 @@
+
+@import "minima";
+
+/* Brand accent */
+:root { --color-accent: #007acc; }
+
+.home-banner {
+  background: var(--color-accent);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+

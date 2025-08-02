@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-02T17:03:35-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AIMS Research Group</title><subtitle>University of Wisconsin - Eau Claire, Computer Science Department Research in Artificial Intelligence, Machine Learning, and Security</subtitle><entry><title type="html">Example Article!</title><link href="http://localhost:4000/2025/07/27/welcome.html" rel="alternate" type="text/html" title="Example Article!" /><published>2025-07-27T10:00:00-05:00</published><updated>2025-07-27T10:00:00-05:00</updated><id>http://localhost:4000/2025/07/27/welcome</id><content type="html" xml:base="http://localhost:4000/2025/07/27/welcome.html"><![CDATA[<h1 id="this-is-an-example-article">This is an example article</h1>
+
+<p>This is all rendered with markdown, so we can put whatever we want, like</p>
+
+<hr />
+
+<h2 id="text-formatting"><strong>Text Formatting</strong></h2>
+
+<p>We can make text <strong>bold</strong>, <em>italic</em>, or <strong><em>bold and italic</em></strong>.<br />
+We can also do <del>strikethrough</del> or <sub>subscript</sub> and <sup>superscript</sup>.</p>
+
+<hr />
+
+<h2 id="lists"><strong>Lists</strong></h2>
+
+<p><strong>Bullet list:</strong></p>
+<ul>
+  <li>Item one</li>
+  <li>Item two
+    <ul>
+      <li>Nested item</li>
+      <li>Another nested item</li>
+    </ul>
+  </li>
+  <li>Item three</li>
+</ul>
+
+<p><strong>Numbered list:</strong></p>
+<ol>
+  <li>First</li>
+  <li>Second
+    <ol>
+      <li>Sub-step A</li>
+      <li>Sub-step B</li>
+    </ol>
+  </li>
+  <li>Third</li>
+</ol>
+
+<hr />
+
+<h2 id="links-and-images"><strong>Links and Images</strong></h2>
+
+<p><a href="https://uwec.edu">Click here to visit UWEC</a></p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown logo" /></p>
+
+<hr />
+
+<h2 id="blockquotes-and-callouts"><strong>Blockquotes and Callouts</strong></h2>
+
+<blockquote>
+  <p>This is a blockquote — good for quotes, tips, or emphasis.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Pro Tip:</strong> You can even <em>nest</em> blockquotes</p>
+  <blockquote>
+    <p>Like this!</p>
+  </blockquote>
+</blockquote>
+
+<hr />
+
+<h2 id="code"><strong>Code</strong></h2>
+
+<p>Inline code looks like <code class="language-plaintext highlighter-rouge">console.log("Hello World!")</code></p>
+
+<p>Code blocks:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!</span><span class="sh">"</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="nf">greet</span><span class="p">(</span><span class="sh">"</span><span class="s">Markdown</span><span class="sh">"</span><span class="p">))</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="tables"><strong>Tables</strong></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Supported?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bold</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Italics</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Images</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>Tables</td>
+      <td>✅</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="horizontal-rules"><strong>Horizontal Rules</strong></h2>
+
+<hr />
+
+<p>This is a section divider.</p>
+
+<hr />
+
+<h2 id="tasks--checklists"><strong>Tasks / Checklists</strong></h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Write an article</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Add Markdown examples</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Publish</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Celebrate 🎉</li>
+</ul>
+
+<hr />
+
+<h2 id="footnotes"><strong>Footnotes</strong></h2>
+
+<p>Here’s a sentence with a footnote.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+
+<hr />
+
+<h2 id="collapsible-sections"><strong>Collapsible Sections</strong></h2>
+
+<details>
+<summary>Click to expand section</summary>
+
+Inside this collapsible section, you can add text, lists, images, or anything else.
+
+- Nested bullet
+- More content
+- Even **Markdown** works here
+
+</details>
+
+<hr />
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This is the footnote text. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="welcome" /><category term="news" /><summary type="html"><![CDATA[This is an example article]]></summary></entry></feed>
