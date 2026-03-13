@@ -32,6 +32,14 @@ body > p {
   font-size: 24px;
 }
 
+ul {
+  list-style-position: inside;
+}
+
+li {
+  font-size: 24px;
+}
+
 html {
   background-color: var(--bg);
   /* pad center items on phone screens */
